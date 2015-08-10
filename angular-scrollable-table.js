@@ -1,7 +1,7 @@
 (function (angular) {
   'use strict';
   angular.module('scrollable-table', [])
-    run(['$templateCache', function($templateCache){
+      .run(['$templateCache', function($templateCache){
 
         $templateCache.put('scrollable-table/sortalbe-header.tpl.html',
           '<div class="box">' +
